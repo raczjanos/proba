@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville");
+
+h1 {text-align: center; font-family: "Poppins"; color: rgb(63, 78, 78);}
+h2 {font-family: "Poppins"; color: rgb(63, 78, 78);}
+h3 {font-family: "Poppins"; color: rgb(63, 78, 78); font-size: 0,1rem;}
+p {font-family: "Poppins"; text-align: justify; color: rgb(63, 78, 78);}
+ul {font-family: "Poppins"; color: rgb(63, 78, 78);}
+
+div {
+    margin: 5%;
+}
+
+main p#menu {
+    font-family: "Libre Baskerwille";
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: rgb(63, 78, 78);
+    margin: 0%;
+    letter-spacing: 5px;
+    word-spacing: 80px;
+    text-shadow: black -3px 3px 3px;
+    margin: 0%;
+    
+    }
+header {
+    background-color: rgb(63, 78, 78);
+    background-image: url("../kepek/logo.jpg");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 170px;
+    
+}
+form {
+    font-family: "Poppins";
+    color: rgb(63, 78, 78);
+    margin-left: 33%;
+}
+body p#menu a:link, a:visited, a:hover, a:active {
+    color: rgb(247, 244, 240);
+    text-decoration: none;
+}
+footer {
+    background-color: rgb(63, 78, 78);
+    margin: 0px;
+}
+p#foot {
+    text-align: center;
+    font-size: 0.8em;
+    font-style: normal;
+    color: rgb(247, 244, 240);
+}
+p#foot a:link {
+    color: rgb(247, 244, 240);
+}
+p#foot a:visited {
+    color: rgb(209, 157, 89);
+}
+p#foot a:hover, a:active {
+    color: rgb(247, 244, 240);
+}
+
+
+
+main a#bemutatkozas:link, a#bemutatkozas:visited, a#bemutatkozas:hover, a#bemutatkozas:active {
+    color: rgb(63, 78, 78);
+    text-decoration: none;
+    text-shadow: none;
+    background-color: rgb(247, 244, 240);
+}
+main a#masszazsok:link, a#masszazsok:visited, a#masszazsok:hover, a#masszazsok:active {
+    color: rgb(63, 78, 78);
+    text-decoration: none;
+    text-shadow: none;
+    background-color: rgb(247, 244, 240);
+}
+main a#arak:link, a#arak:visited, a#arak:hover, a#arak:active {
+    color: rgb(63, 78, 78);
+    text-decoration: none;
+    text-shadow: none;
+    background-color: rgb(247, 244, 240);
+}
+main a#jelentkezes:link, a#jelentkezes:visited, a#jelentkezes:hover, a#jelentkezes:active {
+    color: rgb(63, 78, 78);
+    text-decoration: none;
+    text-shadow: none;
+    background-color: rgb(247, 244, 240);
+}
+main table#tablazat {
+    font-family: "Poppins";
+}
+a#aszflink a:link {
+    color: rgb(163, 124, 78);
+}
+a#aszflink:visited {
+    color: rgb(158, 115, 57);
+}
+a#aszflink:hover, a#aszflink:active {
+    color: rgb(63, 78, 78);
+}
