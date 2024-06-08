@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bíró Móni masszázs - Árak</title>
+        <script src="js/java.js"></script>
+        <link id="pagestyle" href="css/alap.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <aside>
+                <button id="dark" onclick="dark();">
+                    Sötét mód
+                </button><br>
+                <button id="light" onclick="light();">
+                    Világos mód
+                </button>
+            </aside>
+        </header>
+    <main>
+        <nav>
+            <p id = "menu">
+                <a href="index.html">bemutatkozás</a>
+                <a href="masszazsok.html">masszázsok</a>
+                <a id="arak" href="arak.html">árak</a>
+                <a href="jelentkezes.html">jelentkezés</a>
+            </p>
+        </nav>
+        <h1>Árak</h1>
+        <div class="table-responsive">
+            <table id="tablazat" class="table table-striped">
+                <caption>
+                    <details>
+                        <summary>GYIK</summary>
+                        <p>Az árak tartalmazzák az áfát. 24 órán belüli lemondás esetén 3000 Ft regisztrációs díjat számítunk fel.</p>
+                    </details>
+                </caption>
+                <tr><th scope="row">Svéd masszázs</th>      <td>30 perc</td><td>5000 Ft</td></tr>
+                <tr><th scope="row">Svéd masszázs</th>      <td>60 perc</td><td>8000 Ft</td></tr>
+                <tr><th scope="row">Madero masszázs</th>    <td>50 perc</td><td>15000 Ft</td></tr>
+                <tr><th scope="row">Kinezio tape</th>       <td>45 perc</td><td>12000 Ft</td></tr>
+                <tr><th scope="row">Irodai masszázs</th>    <td>30 perc</td><td>8000 Ft</td></tr>
+                <tr><th scope="row">Arcmasszázs</th>        <td>30 perc</td><td>5000 Ft</td></tr>
+                <tr><th scope="row">Vitalizáló masszázs</th><td>50 perc</td><td>7500 Ft</td></tr>
+                <tr><th scope="row">Kiszállási díj</th>     <td></td>       <td>3000 Ft</td></tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <address>
+        <p id="foot">Bíró Mónika honlapja<br>
+            <a href="https://maps.app.goo.gl/ethV5FjxdkiV6Ast8">1117 Budapest, Pázmány Péter sétány 1/C.</a><br>
+            <a href="mailto:raczjanos@student.elte.hu">raczjanos@student.elte.hu</a><br>
+            Készítette: Rácz János Sebestyén<br>
+            2024
+        </p>
+        </address>
+    </footer>
+</body>
+</html>
