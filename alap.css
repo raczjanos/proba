@@ -33,10 +33,12 @@ header {
     height: 170px;
     
 }
-form {
+.form-container {
     font-family: "Poppins";
     color: rgb(63, 78, 78);
-    margin-left: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 body p#menu a:link, a:visited, a:hover, a:active {
     color: rgb(247, 244, 240);
@@ -61,9 +63,6 @@ p#foot a:visited {
 p#foot a:hover, a:active {
     color: rgb(247, 244, 240);
 }
-
-
-
 main a#bemutatkozas:link, a#bemutatkozas:visited, a#bemutatkozas:hover, a#bemutatkozas:active {
     color: rgb(63, 78, 78);
     text-decoration: none;
